@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, absolute_import, unicode_literals
 
-import sys, os, imp, json, time, re, pprint, subprocess, argparse, stat, shutil
+import sys, os, importlib, json, time, re, pprint, subprocess, argparse, stat, shutil
 
 sys.path.insert(0, os.path.abspath('Code/Tools/waf-1.7.13'))
 from waflib import Context, ConfigSet, Logs
