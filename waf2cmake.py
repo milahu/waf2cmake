@@ -4,7 +4,7 @@ from __future__ import print_function, absolute_import, unicode_literals
 
 import sys, os, importlib, json, time, re, pprint, subprocess, argparse, stat, shutil
 
-sys.path.insert(0, os.path.abspath('Code/Tools/waf-1.7.13'))
+sys.path.insert(0, os.path.dirname(__file__) + '/waf')
 from waflib import Context, ConfigSet, Logs
 
 # Python 2/3 compatibility.
